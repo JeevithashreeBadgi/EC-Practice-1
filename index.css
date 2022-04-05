@@ -1,0 +1,130 @@
+.margin{
+    width:100px;
+    height :100px;
+    background-color: aqua;
+    margin:100px;
+}
+.padding{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item{
+    margin:1px;
+    width: 350px;
+    height: 150px;
+    border : 2px solid orangered;
+}
+.grid-container{
+    border : 5px solid darkblue;
+    display: inline-grid;
+    padding:10px;
+     grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 110px 110px 110px 50px; 
+    grid-gap: 10px;
+    
+}
+.griditem1{
+    background-color: darkblue;
+    grid-column: 1/3;
+}
+.griditem2{
+    background-color: darkblue;
+    grid-row: 2/4;
+}
+.griditem3{
+    background-color: darkblue;
+}
+.griditem4{
+    background-color: darkblue;
+}
+.griditem5{
+    background-color: darkblue;
+    grid-column: 1/-1;
+}
+.griditem6{
+    background-color:darkblue;
+    grid-row: 5/-1;
+    grid-column: 1/-1;
+}
+
+.grid-container1{
+    border : 5px solid pink;
+    display: inline-grid;
+    padding:10px;
+     grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 110px 110px 110px 50px; 
+    grid-gap: 10px;
+    position: relative;
+    left : 150px;
+}
+.griditem11{
+    background-color: pink;
+    grid-column: 1/3;
+}
+.griditem22{
+    background-color: pink;
+    grid-row: 2/4;
+}
+.griditem33{
+    background-color: pink;
+}
+.griditem44{
+    background-color: pink;
+}
+.griditem55{
+    background-color: pink;
+    grid-column: 1/-1;
+}
+.griditem66{
+    background-color:pink;
+    grid-row: 5/-1;
+    grid-column: 1/-1;
+}
+.grid-container2{
+    color: white;
+    font-size: 20px; 
+    border : 5px solid darkblue;
+    display: inline-grid;
+    padding:10px;
+     grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 110px 110px 110px 50px; 
+    grid-gap: 10px;
+    position: absolute;
+    right:10px;
+}
+.griditem111{
+    box-sizing: border-box;
+    background-color: darkblue;
+    grid-column: 1/3;
+}
+.griditem222{
+    box-sizing: border-box;
+    background-color: darkblue;
+    grid-row: 2/4;
+}
+.griditem333{
+    box-sizing: border-box;
+    background-color: darkblue;
+}
+.griditem444{
+    box-sizing: border-box;
+    background-color: darkblue;
+}
+.griditem555{
+    box-sizing: border-box;
+    background-color: darkblue;
+    grid-column: 1/-1;
+}
+.griditem666{
+    box-sizing: border-box;
+    background-color:darkblue;
+    grid-row: 5/-1;
+    grid-column: 1/-1;
+}
